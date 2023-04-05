@@ -57,6 +57,27 @@ Perform Fisher’s exact test
 fisher.test(x)
 ```
 
+## (d)
+What do you conclude?
+
+***Answer***
+
+The chi-sqaure, likelihood ratio test and Fisher's exact test all suggested p-values that are greater than 0.05 （0.083, 0.087, 0.084, repectively). Therefore, we failed to reject the null hypothesis of susvival and treatments are independent.
+
+# 2.
+A  researcher studied patients with Clostridium difficile infections, which cause persistent diarrhea. Some patients were given the antibiotic vancomycin, and some patients were given a fecal transplant. Among the people who received a fecal transplant 13 out of 16 were cured, while only 4 out of 13 patients who received vancomycin were cured. Use Fisher’s exact test to test the null hypothesis that there is no difference in treatment versus the alternative that the fecal transplant is better than vancomycin. Do so by calculating the p-value based on the respective hypergeometric probabilities, and confirm your result
+using the built-in R function.
+
+***Answer***
+
+Based on the information provided, we can construct a table of treatment vs. cure like below:
+$$\begin{matrix}
+\ & Cured & Uncured \\
+Fecal\ Transplant & 13 & 3 \\
+Vancomycin & 4 & 9
+\end{matrix}$$
+
+
 
 
 
